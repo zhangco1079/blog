@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sam的学习笔记</title>
+  
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://zhangco1079.github.io/Blog/"/>
+  <updated>2022-08-22T02:50:31.686Z</updated>
+  <id>https://zhangco1079.github.io/Blog/</id>
+  
+  <author>
+    <name>SamuelZhang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>m1 mac部署hexo的坑 </title>
+    <link href="https://zhangco1079.github.io/Blog/2022/08/22/m1-mac%E9%83%A8%E7%BD%B2hexo%E7%9A%84%E5%9D%91/"/>
+    <id>https://zhangco1079.github.io/Blog/2022/08/22/m1-mac部署hexo的坑/</id>
+    <published>2022-08-22T02:42:17.000Z</published>
+    <updated>2022-08-22T02:50:31.686Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>hexo部署报错，hexo-renderer-sass插件不支持当前环境。把网上的解决方法都试过后，出现了另一个问题，the”mode”无法返回整数，其他方法都无效。<ul><li>折腾了一下，降低node.js到13.14.0版本后解决。<br>总结：很多环境还不支持m1芯片，还有些老旧的、很久未升级的插件也不支持m1芯片，以后在m1mac上安装环境需要先上网看大家踩过的坑，再动手安装～</li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;hexo部署报错，hexo-renderer-sass插件不支持当前环境。把网上的解决方法都试过后，出现了另一个问题，the”mode”无法返回整数，其他方法都无效。&lt;ul&gt;
+&lt;li&gt;折腾了一下，降低node.js到13.14.0版本后解决。&lt;br&gt;总结：很多环
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Python学习资源</title>
+    <link href="https://zhangco1079.github.io/Blog/2022/08/21/Python%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/"/>
+    <id>https://zhangco1079.github.io/Blog/2022/08/21/Python学习资源/</id>
+    <published>2022-08-21T14:39:55.000Z</published>
+    <updated>2022-08-21T14:46:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="北京邮电大学“Python编程与实践”课程-2021"><a href="#北京邮电大学“Python编程与实践”课程-2021" class="headerlink" title="北京邮电大学“Python编程与实践”课程(2021)"></a>北京邮电大学“Python编程与实践”课程(2021)</h3><a id="more"></a><ul><li>课程名称：Python编程与实践</li><li>教师：陈光 (<a href="https://weibo.com/fly51fly" target="_blank" rel="noopener">@爱可可-爱生活</a>)</li><li>时间地点：周二上午 8:00-9:35 N216</li></ul><p>本课程是零基础Python编程入门课，手把手带你爱上编程，爱上Python！</p><p>推荐参考书：<br><br><a href="http://aicoco.net/s/pdoc" target="_blank" rel="noopener">Python官方文档</a><br> 《Think Python 2nd Edition》 by Allen B. Downey<br> <a href="http://aicoco.net/s/tp2" target="_blank" rel="noopener">英文版</a>&nbsp;|&nbsp;<a href="http://aicoco.net/s/tp2c" target="_blank" rel="noopener">双语对照版</a></p><table><thead><tr><th>日期</th><th>内容</th><th>视频</th><th>讲义</th><th>答疑</th></tr></thead><tbody><tr><td>2021.9.14</td><td>第1讲、一起出发~<br>摘要：为什么学编程？为什么选Python？为什么是我？应该怎么学？<br> <img src="https://github.com/fly51fly/Practical_Python_Programming_2021/blob/main/images/class_1.jpg?raw=true" alt="第一课导图"></td><td><a href="https://www.bilibili.com/video/BV1mQ4y167q8/" target="_blank" rel="noopener">V1</a></td><td><a href="http://aicoco.net/s/py1" target="_blank" rel="noopener">L1</a></td><td><a href="https://zhuanlan.zhihu.com/p/410262678" target="_blank" rel="noopener">Q1</a></td></tr><tr><td>2021.9.28</td><td>第2讲、编程基础<br>摘要：Python程序的整体框架、构件和周边<br> <img src="https://github.com/fly51fly/Practical_Python_Programming_2021/blob/main/images/class_2.jpg?raw=true" alt="第二课导图"></td><td><a href="https://www.bilibili.com/video/BV1q44y147Kf/" target="_blank" rel="noopener">V2</a></td><td><a href="http://aicoco.net/s/py21n02" target="_blank" rel="noopener">L2</a></td><td><a href="https://zhuanlan.zhihu.com/p/414950491" target="_blank" rel="noopener">Q2</a></td></tr><tr><td>2021.10.12</td><td>第3讲、开始编程<br>摘要：Python程序周边和开发流程，第一个编程案例<br> <img src="https://github.com/fly51fly/Practical_Python_Programming_2021/blob/main/images/class_3.jpg?raw=true" alt="第三课导图"></td><td><a href="https://www.bilibili.com/video/BV1hq4y157eQ/" target="_blank" rel="noopener">V3</a></td><td><a href="http://aicoco.net/s/py21n03" target="_blank" rel="noopener">L3</a></td><td><a href="https://zhuanlan.zhihu.com/p/420572854" target="_blank" rel="noopener">Q3</a></td></tr><tr><td>2021.10.19</td><td>第4讲、密码生成(上)<br>摘要：密码生成案例讲解，熟悉git使用，代码的逐步重构&nbsp;<a href="https://pastebin.com/wG532L99" target="_blank" rel="noopener">代码</a><br></td><td><a href="https://www.bilibili.com/video/BV1zr4y1y7gB/" target="_blank" rel="noopener">V4</a></td><td></td><td><a href="https://zhuanlan.zhihu.com/p/423170389" target="_blank" rel="noopener">Q4</a></td></tr><tr><td>2021.10.26</td><td>第5讲、密码生成(中)<br>摘要：代码的逐步重构，函数化改造&nbsp;<a href="https://pastebin.com/j86fpHfN" target="_blank" rel="noopener">代码</a><br></td><td><a href="https://www.bilibili.com/video/BV1nQ4y1q79m/" target="_blank" rel="noopener">V5</a></td><td></td><td><a href="https://zhuanlan.zhihu.com/p/425899836" target="_blank" rel="noopener">Q5</a></td></tr><tr><td>2021.11.2</td><td>第6讲、密码生成(下)<br>摘要：另外两种代码生成方式实现，命令行参数解析&nbsp;<a href="https://pastebin.com/i0dGtFae" target="_blank" rel="noopener">代码</a><br></td><td><a href="https://www.bilibili.com/video/BV15R4y1E7vk/" target="_blank" rel="noopener">V6</a></td><td></td><td><a href="https://zhuanlan.zhihu.com/p/428669602" target="_blank" rel="noopener">Q6</a></td></tr><tr><td>2021.11.9</td><td>第7讲、一起来抽奖<br>摘要：数据生成、print控制、异常处理、列表排序&nbsp;<a href="https://pastebin.com/xc4CuZ6t" target="_blank" rel="noopener">代码</a><br></td><td><a href="https://www.bilibili.com/video/BV1Xb4y187Yw/" target="_blank" rel="noopener">V7</a></td><td></td><td><a href="https://zhuanlan.zhihu.com/p/431193350" target="_blank" rel="noopener">Q7</a></td></tr><tr><td>2021.11.16</td><td>第8讲、逻辑猜数字游戏<br>摘要：循环、&nbsp;<a href="https://pastebin.com/tA1UzGQV" target="_blank" rel="noopener">代码</a><br></td><td><a href="https://www.bilibili.com/video/BV1yL411u7Uo/" target="_blank" rel="noopener">V8</a></td><td></td><td><a href="https://zhuanlan.zhihu.com/p/433896714" target="_blank" rel="noopener">Q8</a></td></tr><tr><td>2021.11.23</td><td>第9讲、爬虫入门<br>摘要：文本的内容提取，HTML、DOM、xPath基础</td><td><a href="https://www.bilibili.com/video/BV1Ji4y1o7ss/" target="_blank" rel="noopener">V9</a></td><td></td><td><a href="https://zhuanlan.zhihu.com/p/437043847" target="_blank" rel="noopener">Q9</a></td></tr><tr><td>2021.11.30</td><td>第10讲、爬虫实现<br>摘要：HTTP、网页访问机制、Request和lxml库使用基础</td><td><a href="https://www.bilibili.com/video/BV1Gb4y1B7xE/" target="_blank" rel="noopener">V10</a></td><td></td><td><a href="https://zhuanlan.zhihu.com/p/439531518" target="_blank" rel="noopener">Q10</a></td></tr><tr><td>2021.12.7</td><td>第11讲、爬虫实现II<br>摘要：网页内容的分层解析</td><td><a href="https://www.bilibili.com/video/BV1mq4y1z7vS/" target="_blank" rel="noopener">V11</a></td><td></td><td><a href="https://zhuanlan.zhihu.com/p/442310297" target="_blank" rel="noopener">Q11</a></td></tr><tr><td>2021.12.14</td><td>第12讲、爬虫实现III<br>摘要：Ajax数据的获取</td><td><a href="https://www.bilibili.com/video/BV1Hb4y1q7ae/" target="_blank" rel="noopener">V12</a></td><td></td><td><a href="https://zhuanlan.zhihu.com/p/445226309" target="_blank" rel="noopener">Q12</a></td></tr><tr><td>2021.12.21</td><td>第13讲、正则表达式<br>摘要：正则表达式及其在爬虫中的应用</td><td><a href="https://www.bilibili.com/video/BV14r4y1U7PF/" target="_blank" rel="noopener">V13</a></td><td></td></tr></tbody></table><p>参考：  </p><ol><li><a href="https://github.com/lijin-THU/notes-python" target="_blank" rel="noopener">中文 Python 笔记</a>  </li><li><a href="https://github.com/xianhu/LearnPython" target="_blank" rel="noopener">千行代码入门Python</a>  </li><li><a href="http://www.pythontutor.com/index.html" target="_blank" rel="noopener">Python代码运行可视化</a>  </li><li><a href="https://gto76.github.io/python-cheatsheet/" target="_blank" rel="noopener">Comprehensive Python Cheatsheet</a>  </li><li><a href="https://docs.python-guide.org/intro/learning/" target="_blank" rel="noopener">The Hitchhiker’s Guide to Python</a>  </li><li><a href="https://regexr.com/" target="_blank" rel="noopener">正则表达式调试/可视化</a>  </li><li><a href="https://jex.im/regulex" target="_blank" rel="noopener">正则表达式图形式可视化</a>  </li><li><a href="https://medium.datadriveninvestor.com/140-python-projects-with-source-code-fa12c9e2aeac" target="_blank" rel="noopener">140个Python项目</a>  </li><li><a href="https://python-world.github.io/python-mini-projects/#/" target="_blank" rel="noopener">Python (mini) Project Collection</a>  </li><li><a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank" rel="noopener">Unofficial Windows Binaries for Python Extension Packages</a>  </li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;北京邮电大学“Python编程与实践”课程-2021&quot;&gt;&lt;a href=&quot;#北京邮电大学“Python编程与实践”课程-2021&quot; class=&quot;headerlink&quot; title=&quot;北京邮电大学“Python编程与实践”课程(2021)&quot;&gt;&lt;/a&gt;北京邮电大学“Python编程与实践”课程(2021)&lt;/h3&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>pip下载的坑</title>
+    <link href="https://zhangco1079.github.io/Blog/2022/08/21/pip%E4%B8%8B%E8%BD%BD%E7%9A%84%E5%9D%91/"/>
+    <id>https://zhangco1079.github.io/Blog/2022/08/21/pip下载的坑/</id>
+    <published>2022-08-21T14:39:55.000Z</published>
+    <updated>2022-08-21T14:43:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="国外pypi网站有时无法访问，会导致pip-install-XXX-失败。"><a href="#国外pypi网站有时无法访问，会导致pip-install-XXX-失败。" class="headerlink" title="国外pypi网站有时无法访问，会导致pip install XXX 失败。"></a>国外pypi网站有时无法访问，会导致pip install XXX 失败。</h2><ul><li>解决方法: <code>pip install -i 安装插件的网址 插件名称 --trusted-host 安装插件访问的主地址</code>。</li></ul><a id="more"></a><ul><li>如<code>pip install -i https://pypi.douban.com/simple pdf2docx --trusted-host http//pypi.douban.com</code>  (“–trusted-host 网址” 大多数情况可以省略)</li><li>可使用的替代网站：<ul><li>pip install -i <a href="https://pypi.douban.com/simple" target="_blank" rel="noopener">https://pypi.douban.com/simple</a> module # 使用豆瓣源 </li><li>pip install -i <a href="http://mirrors.aliyun.com/pypi/simple/" target="_blank" rel="noopener">http://mirrors.aliyun.com/pypi/simple/</a> module  # 阿里云 </li><li>pip install -i  <a href="https://pypi.mirrors.ustc.edu.cn/simple/" target="_blank" rel="noopener">https://pypi.mirrors.ustc.edu.cn/simple/</a> module  # 中国科技大学 </li><li>pip install -i  <a href="http://pypi.douban.com/simple/" target="_blank" rel="noopener">http://pypi.douban.com/simple/</a> module  # 豆瓣(douban) </li><li>pip install -i  <a href="https://pypi.tuna.tsinghua.edu.cn/simple/" target="_blank" rel="noopener">https://pypi.tuna.tsinghua.edu.cn/simple/</a> module  # 清华大学 </li><li>pip install -i  <a href="http://pypi.mirrors.ustc.edu.cn/simple/" target="_blank" rel="noopener">http://pypi.mirrors.ustc.edu.cn/simple/</a> module  # 中国科学技术大学</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;国外pypi网站有时无法访问，会导致pip-install-XXX-失败。&quot;&gt;&lt;a href=&quot;#国外pypi网站有时无法访问，会导致pip-install-XXX-失败。&quot; class=&quot;headerlink&quot; title=&quot;国外pypi网站有时无法访问，会导致pip install XXX 失败。&quot;&gt;&lt;/a&gt;国外pypi网站有时无法访问，会导致pip install XXX 失败。&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;解决方法: &lt;code&gt;pip install -i 安装插件的网址 插件名称 --trusted-host 安装插件访问的主地址&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
