@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://zhangco1079.github.io/Blog/"/>
-  <updated>2022-08-22T02:50:31.686Z</updated>
+  <updated>2022-08-22T23:57:01.414Z</updated>
   <id>https://zhangco1079.github.io/Blog/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>m1 macbook pro conda 在terminal里无法启动虚拟环境</title>
+    <link href="https://zhangco1079.github.io/Blog/2022/08/23/%E6%B2%A1/"/>
+    <id>https://zhangco1079.github.io/Blog/2022/08/23/没/</id>
+    <published>2022-08-22T23:54:49.000Z</published>
+    <updated>2022-08-22T23:57:01.414Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决方法：<a href="https://github.com/conda/conda/issues/7980" target="_blank" rel="noopener">https://github.com/conda/conda/issues/7980</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">unctions are not exported by default to be made available in subshells. I&apos;d recommend you do:</span><br><span class="line"></span><br><span class="line">source ~/anaconda3/etc/profile.d/conda.sh</span><br><span class="line">conda activate my_env</span><br><span class="line">Closing as non-issue. Feel free to re-open if you feel otherwise.</span><br><span class="line"></span><br><span class="line">******* EDIT *******</span><br><span class="line">In the commands above, replace ~/anaconda3/ with the path to your miniconda / anaconda installation. You can find that out by running: conda info | grep -i &apos;base environment&apos;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;解决方法：&lt;a href=&quot;https://github.com/conda/conda/issues/7980&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/conda/conda/issues/7980&lt;/a&gt;&lt;/
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>m1 mac部署hexo的坑 </title>
